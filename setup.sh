@@ -24,5 +24,11 @@ sudo docker run hello-world
 sudo usermod -g docker ${USER}
 sudo /bin/systemctl restart docker.service
 
+cat <<EOF > ~/.docker/config.json
+{
+    "detachKeys": "ctrl-\\"
+}
+EOF
+
 git config --global user.name iyahoo
 git config --global user.email s1200191@gmail.com
