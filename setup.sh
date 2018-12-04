@@ -2,7 +2,7 @@
 sudo apt-get update
 
 # Install docker
-sudo apt-get -y install \
+sudo apt-get -qqy install \
 	apt-transport-https \
 	ca-certificates \
 	curl \
