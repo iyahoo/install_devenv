@@ -30,5 +30,18 @@ cat <<EOF > ~/.docker/config.json
 }
 EOF
 
+# Git config
+
 git config --global user.name iyahoo
 git config --global user.email s1200191@gmail.com
+
+
+# bash
+
+cat <<EOF >> ~/.bashrc
+
+export EDITOR=vim
+
+alias tig="tig status"
+EOF
+
